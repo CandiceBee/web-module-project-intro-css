@@ -1,0 +1,79 @@
+html, body, div, span, applet, object, iframe,  
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,  
+a, abbr, acronym, address, big, cite, code,  
+del, dfn, em, img, ins, kbd, q, s, samp,  
+small, strike, strong, sub, sup, tt, var,  
+b, u, i, center,  
+dl, dt, dd, ol, ul, li,  
+fieldset, form, label, legend,  
+table, caption, tbody, tfoot, thead, tr, th, td,  
+article, aside, canvas, details, embed,  
+figure, figcaption, footer, header, hgroup,  
+menu, nav, output, ruby, section, summary,  
+time, mark, audio, video {  
+margin: 0;  
+padding: 0;  
+border: 0;  
+font-size: 100%;  
+font: inherit;  
+vertical-align: baseline;  
+}
+
+body {font-family: 'Roboto Mono', monospace;
+    font-size: .75rem;
+    text-align: center;}
+
+.containers nav {
+    margin: 0 auto;
+    width: 600px;}
+
+    .containers nav a {
+        list-style-type: none;
+        display: block;
+        color: white;
+        margin: 20px;
+        padding: 10px;
+        display: inline-block;
+        border-radius: 10px;
+        font-size: .75rem;
+        font-family: 'Roboto Mono', monospace;
+        text-align: center;
+        text-decoration: none;
+}
+.red {background-color:#FF764E;}
+
+.blue {background-color:#5ED3EB;}
+
+.yellow {background-color:#FFCD69}
+
+h1 {font-family: 'Chelsea Market', cursive;
+font-size: 2.5em;
+margin-bottom: 1rem;}
+
+h2 {margin-bottom: 2rem;}
+
+.block {background-color: #DDB9A3;
+        color: white;
+        padding: auto, 20px;}
+
+.icons img {width: 100px;
+position: center;}
+
+
+
+
+footer {background-color: #F9E7DC;}
+
+.footer img {width: max-content;
+background-position: center;
+padding: 20px}
+
+.header img {
+    width: 200px;
+    float: left;
+    margin: 50px,100px;
+    border-radius: 100px;
+}
+
+
+span {font-weight: bold;}
